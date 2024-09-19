@@ -94,16 +94,7 @@ The frontend is developed with React and includes:
 4. Click "Translate" to receive the translated code with preserved comments.
 5. Copy the translated code using the provided button.
 
-## Example API Request
 
-```json
-POST /api/translate
-{
-  "sourceLanguage": "JavaScript",
-  "targetLanguage": "Python",
-  "sourceCode": "/* Sample JavaScript code */\nconsole.log('Hello World');"
-}
-```
 
 ## Notes
 
