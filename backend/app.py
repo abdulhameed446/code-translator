@@ -9,7 +9,7 @@ CORS(app)
 def get_credentials():
     return {
         "url": "https://us-south.ml.cloud.ibm.com",
-        "apikey": "UxfTEtxongzcajN1Sl4Vla5Y8Poa31RBIYMDCEDojK7O"
+        "apikey": "l4Vla5Y8Poa31RBIYMDCEDojK7O"
     }
 
 model_id = "ibm/granite-34b-code-instruct"
