@@ -14,11 +14,8 @@ Welcome to the **Code Translation Tool**! In a landscape where translating code 
 
 ```
 ├── backend
-│   ├── app.py
-│   ├── node_modules
-│   ├── package-lock.json
-│   ├── package.json
-│   └── uploads
+    ├── app.py
+
 └── frontend
     ├── app.js
     ├── index.html
@@ -30,9 +27,6 @@ Welcome to the **Code Translation Tool**! In a landscape where translating code 
 The backend is built using Flask and includes:
 
 - **`app.py`**: Main application file with routes for translation.
-- **`node_modules`**: Contains node dependencies.
-- **`package-lock.json`** & **`package.json`**: Manage Node.js dependencies.
-- **`uploads`**: Directory for file uploads (if any).
 
 ### Frontend
 
@@ -48,7 +42,7 @@ The frontend is developed with React and includes:
 
 - Python 3.6 or higher
 - Node.js
-- IBM Watsonx API credentials
+- IBM Watsonx API credentials (apikey, project id, model name)
 
 ### Installation
 
@@ -116,14 +110,10 @@ POST /api/translate
 - Ensure that IBM Watsonx credentials and model parameters are correctly configured.
 - The `reinsert_comments` function in `app.py` is a placeholder and should be customized based on specific use cases.
 
-## License
-
-MIT License. See `LICENSE` for details.
 
 ## Contact
 
-For any issues or questions, please contact us at support@cybernetwork.com.
+For any issues or questions, please contact us at abdulhmeed446@gmail.com
 
 ---
 
-**Grammar Feedback:** Your description was clear but a bit long-winded. I streamlined it while retaining the essential details. Your grammar and writing structure were generally good, with minor adjustments for clarity and conciseness.
