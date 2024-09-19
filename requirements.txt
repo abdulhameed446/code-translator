@@ -1,3 +1,4 @@
 Flask==2.3.2
 Flask-Cors==3.1.2
 ibm-watsonx-ai==1.0.0  # Adjust the version as per the latest release
+npm install -g live-server
