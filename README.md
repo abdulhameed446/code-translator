@@ -53,13 +53,6 @@ The frontend is developed with React and includes:
    pip install -r requirements.txt
    ```
 
-2. **Frontend**
-
-   Navigate to the `frontend` directory and install the required Node.js packages:
-   ```bash
-   npm install
-   ```
-
 ### Configuration
 
 1. **API Credentials**
@@ -83,7 +76,7 @@ The frontend is developed with React and includes:
 
    From the `frontend` directory, run:
    ```bash
-   npm start
+   live-server
    ```
 
 ## Usage
