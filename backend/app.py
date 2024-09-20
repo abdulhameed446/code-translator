@@ -54,7 +54,15 @@ def translate():
     code_without_comments = remove_comments(source_code)
 
     prompt_input = f"""
-    Translate the following code snippet into {target_language} with the utmost precision. Ensure that the translated code retains the original functionality and adheres to {target_language}'s idiomatic programming practices. All comments from the original code should be accurately preserved in their respective places, reflecting their original meaning and context. The output should be a clean code snippet without any extraneous delimiters, backticks, or code block indicators.
+    You are an advanced code translator AI specialized in converting programming code from one language to another while maintaining the functionality, structure, and logic of the original code. You are proficient in Python, Java, C++, JavaScript, and other programming languages.
+
+    You are tasked with translating the following code into {target_language}.
+    Ensure that the translated code maintains the original code's functionality and logic.
+    Do NOT include any explanations or comments—unless they are present in the original code.
+    Adapt the syntax and language-specific features to suit the target language's best practices.
+    If there are libraries or functions in source language that do not exist in {target_language}, suggest equivalent libraries or write custom functions.  
+    Comment the translated code to highlight any areas where significant changes were made due to language differences.
+    Optimize the translated code for both performance and readability.
 
     Input:
     {code_without_comments}
